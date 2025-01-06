@@ -1,0 +1,3 @@
+.env
+pdf_rag_example/uploaded.pdf
+**/__pycache__/**

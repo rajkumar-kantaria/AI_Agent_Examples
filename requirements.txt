@@ -1,0 +1,8 @@
+langchain
+PyPDF2
+python-multipart
+streamlit
+langchain_groq
+langsmith
+langchain-pinecone
+langchain-huggingface
