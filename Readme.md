@@ -10,3 +10,10 @@ A Retrieval Augmented Generation (RAG) system that allows users to:
 - Index their content using embeddings
 - Ask questions about the documents using Groq LLM
 - Get accurate answers based on the document context
+
+### 2. [Simple Chatbot](simple_chatbot/)
+A conversational AI chatbot that:
+- Uses Groq's Mixtral model for natural language interactions
+- Maintains conversation context across multiple messages
+- Provides a clean web interface for chatting
+- Automatically summarizes long conversations to stay within context window
