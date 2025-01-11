@@ -1,6 +1,6 @@
-# PDF RAG Example
+# CONFLUENCE RAG Example
 
-This project demonstrates a RAG (Retrieval Augmented Generation) system using PDF documents. It allows you to upload PDFs, index their content, and ask questions about them.
+This project demonstrates a RAG (Retrieval Augmented Generation) system using Confluence store. It allows you to specify confluence page number, index their content, and ask questions about them.
 
 ## Setup Instructions
 
@@ -15,6 +15,8 @@ Create a `.env` file in the root folder with the following variables:
 
 - `PINECONE_API_KEY`: Your Pinecone API key
 - `GROQ_API_KEY`: Your Groq API key
+- `CONFLUENCE_URL`: Base URL of the confluence server
+- `CONFLUENCE_TOKEN`: Confluence API token
 
 ### 3. Install Dependencies
 

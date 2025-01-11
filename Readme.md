@@ -17,3 +17,10 @@ A conversational AI chatbot that:
 - Maintains conversation context across multiple messages
 - Provides a clean web interface for chatting
 - Automatically summarizes long conversations to stay within context window
+
+### 3. [CONFLUENCE RAG Agent](confluence_rag_example/)
+A conversational AI chatbot that:
+- Uses Groq's model for natural language interactions
+- Provides ability to train the model on Confluence page content
+- Ask questions about the page content
+- Get the answer based on the context
