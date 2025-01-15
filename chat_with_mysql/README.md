@@ -52,3 +52,9 @@ Create a `.env` file in the root folder with the following variables:
    ```
    streamlit run app.py
    ```
+
+
+### 6. Sample Output
+
+![Sample Chat Output](images/sample_output.png)
+
