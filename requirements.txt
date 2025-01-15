@@ -9,3 +9,11 @@ langchain_groq
 langsmith
 langchain-pinecone
 langchain-huggingface
+langgraph
+youtube-transcript-api
+crewai
+mysql-connector-python
+crewai[tools]
+PyMySQL
+sqlalchemy<2.0.0
+github

@@ -24,3 +24,11 @@ A conversational AI chatbot that:
 - Provides ability to train the model on Confluence page content
 - Ask questions about the page content
 - Get the answer based on the context
+
+### 4. [MySQL Chat Agent](chat_with_mysql/)
+An AI-powered chat interface for MySQL databases that:
+- Uses CrewAI framework with Groq's LLM model
+- Allows natural language querying of MySQL databases
+- Translates questions into SQL queries automatically
+- Provides clean web interface for database interactions
+- Supports connection to any MySQL database

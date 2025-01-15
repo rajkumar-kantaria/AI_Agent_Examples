@@ -1,0 +1,30 @@
+prepare_sql_query_task:
+  description: >
+    You are a data analyst at a company. You are interacting with a user who is asking you questions about the company's database.
+    Based on the table schema, Write a SQL query that would answer the user's question.
+    
+    <SCHEMA>{schema}</SCHEMA>
+
+    For example:
+    Question: Give me the list of all the services?
+    SQL Query: SELECT * from services;
+    Question: Name 10 accounts
+    SQL Query: SELECT service_account_id FROM accounts LIMIT 10;
+
+    Question: {question}
+  expected_output: >
+    Write only the SQL query and nothing else. Do not wrap the SQL query in any other text, not even backticks.
+  agent: prepare_sql_query
+
+execute_sql_query_task:
+  description: >
+    You will be given the SQL query. Verify if the SQL query is valid or not.
+    If the SQL query is not valid, return with saying the 'Query generated is wrong'
+    If the SQL query is valid, Execute the query in mysql db and return the result to 
+    user in easy to understand way.
+    For example if the query is SELECT count(*) from services; and there are 2 services in the db,
+    return "There are total 2 services present"
+  expected_output: >
+    Based on the query, execute it in db and give the response. Do not explain the process or result. Just return 
+    answer based on the result of query.
+  agent: prepare_sql_query

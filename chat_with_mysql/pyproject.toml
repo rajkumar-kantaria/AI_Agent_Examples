@@ -1,0 +1,22 @@
+[project]
+name = "chat_with_mysql"
+version = "0.1.0"
+description = "chat-with-mysql using crewAI"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+requires-python = ">=3.10,<=3.13"
+dependencies = [
+    "crewai[tools]>=0.86.0,<1.0.0",
+    "pymysql",
+    "mysql-connector-python"
+]
+
+[project.scripts]
+chat_with_mysql = "chat_with_mysql.main:run"
+run_crew = "chat_with_mysql.main:run"
+train = "chat_with_mysql.main:train"
+replay = "chat_with_mysql.main:replay"
+test = "chat_with_mysql.main:test"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
