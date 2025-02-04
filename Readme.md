@@ -32,3 +32,11 @@ An AI-powered chat interface for MySQL databases that:
 - Translates questions into SQL queries automatically
 - Provides clean web interface for database interactions
 - Supports connection to any MySQL database
+
+### 5. [Travel Planning Agent](travel_planner_langgraph/)
+An AI travel assistant that:
+- Developed using LangGraph
+- Collects user information for travel planning
+- Create travel itinerary using user preference
+- Integrates with Flight and Weather API that provides real time information
+- Generates day-by-day travel schedules
